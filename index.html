@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <title>Create New Contact</title>
+    
+</head>
+<body>
+    <div id="contents">
+        <div class="col-xs-12 navigation">
+        <h3 class="active col-xs-12" id="new_contact" ><a href="#">Create new contact</a></h3>
+    </div>
+
+    <form action="" method="" id="user_create_form">
+        <input type="text" placeholder="FirstName*" id="firstname" name="firstname" required /><br>
+        <input type="text" placeholder="LastName*" id="lastname" name="lastname" required /><br>
+        <input type="text" placeholder="Phone no*" id="phone_no" name="phone_no" required/><br>
+        <input type="text" placeholder="Email*" id="email" name="email" /><br>
+        <input type="file" id="photo" name="photo" /><br>
+        <p id="demo"></p>
+        <button type="submit"  id="create">Add to account</button>
+    </form>
+
+    <div  class="contacts list-group">
+        <p>Contacts</p>
+        <ul id="contact-list"></ul>
+    </div>
+
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>

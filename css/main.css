@@ -1,0 +1,235 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+body{
+    margin:0px 30%;
+    padding:0px;
+    background-color: #e9e3e3d7;
+    z-index: 5;
+}
+
+.navigation{
+    background-color: #e9e3e3d7;
+}
+#new_contact a{
+
+    font-family: cursive;
+    color: rgb(43, 39, 39);
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+    position: relative;
+    overflow: hidden;
+   
+}
+#contact p{
+   
+
+    font-family: cursive;
+
+    color: rgb(43, 39, 39);
+    font-size: 25px;
+    float: left;
+
+  display: block;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+#contents{
+    margin:0px;
+    padding:0px;
+    background-color: #f7f5f5e3;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#firstname{
+    background-color:whitesmoke;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    color:black;
+    padding: 10px;
+    margin: 10px 60px  ;
+    width:70%;
+    font-weight: bold;
+}
+#lastname{
+    background-color:whitesmoke;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    color:black;
+    padding: 10px;
+    margin: 10px 60px  ;
+    width:70%;
+    font-weight: bold;
+}
+#phone_no{
+    background-color:whitesmoke;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    color:black;
+    padding: 10px;
+    margin: 10px 60px  ;
+    width:70%;
+    font-weight: bold;
+}
+#email{
+    background-color:whitesmoke;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    color:black;
+    padding: 10px;
+    margin: 10px 60px  ;
+    width:70%;
+    font-weight: bold;
+}
+
+#firstnames{
+    background-color:white;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    color:black;
+    padding: 10px;
+    margin: 10px 20px 10px 40px  ;
+    width:70%;
+    font-weight: bold;
+}
+#phone_nos{
+    background-color:white;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    color:black;
+    padding: 10px;
+    margin: 10px 20px  ;
+    width:70%;
+    font-weight: bold;
+}
+#emails{
+    background-color:white;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    color:black;
+    padding: 10px;
+    margin: 10px 20px 10px 40px  ;
+    width:70%;
+    font-weight: bold;
+}
+#photo{
+    margin: 10px 60px  ;
+}
+#create{
+    border:0 solid;
+    background-color:#4CAF50;
+    padding: 5px 10px;
+    color:white;
+    width: 125px;
+    
+    font-size: 15px;
+    
+    border-radius: 4px;
+}
+input:hover, a:hover{
+    opacity: 0.7;
+  }
+
+  div.contacts >p{
+      font-size: 18px;
+      font-weight: bold;
+  }
+  div.contacts{
+      padding: 10px;
+  }
+  div.contacts li{
+    padding: 10px 4px;
+  }
+.modal{
+    display:none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    text-align:center;
+    width: 100%;
+}
+
+.modal::before{
+    content: '';
+    display:block;
+    position:fixed;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 98;
+}
+
+.modal .modal-content{
+    position: relative;
+    z-index: 99;
+    color: white;
+}   
+
+.modal.active{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.dropbtn {
+    
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px 0px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
